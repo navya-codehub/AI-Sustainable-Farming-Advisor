@@ -1,0 +1,229 @@
+/* =========================================
+   AI-POWERED SUSTAINABLE FARMING ADVISOR
+   Professional Green Theme
+   ========================================= */
+
+/* Main website background */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #f4fbf4 0%,
+        #eef8f1 50%,
+        #f8fcf9 100%
+    );
+}
+
+/* Main content area */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Main title */
+h1 {
+    color: #14532d !important;
+    font-size: 42px !important;
+    font-weight: 800 !important;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/* Headings */
+h2 {
+    color: #166534 !important;
+    font-weight: 750 !important;
+}
+
+h3 {
+    color: #15803d !important;
+    font-weight: 700 !important;
+}
+
+/* Normal text */
+p {
+    color: #374151;
+    line-height: 1.6;
+}
+
+/* Input labels */
+label {
+    color: #14532d !important;
+    font-weight: 600 !important;
+}
+
+/* Select boxes */
+div[data-baseweb="select"] > div {
+    border-radius: 10px !important;
+    border: 1px solid #cde8d4 !important;
+}
+
+/* Number inputs */
+div[data-baseweb="input"] > div {
+    border-radius: 10px !important;
+    border: 1px solid #cde8d4 !important;
+}
+
+/* Text inputs */
+input {
+    border-radius: 10px !important;
+}
+
+/* =========================================
+   BUTTON
+   ========================================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 0.75rem 1rem;
+
+    background: linear-gradient(
+        90deg,
+        #15803d,
+        #22c55e
+    );
+
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+    box-shadow: 0 4px 12px rgba(21, 128, 61, 0.20);
+
+    transition: all 0.2s ease;
+}
+
+/* Button hover effect */
+.stButton > button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 18px rgba(21, 128, 61, 0.30);
+}
+
+/* =========================================
+   METRIC CARDS
+   ========================================= */
+
+div[data-testid="stMetric"] {
+    background: white;
+    border-radius: 15px;
+
+    padding: 18px;
+
+    border: 1px solid #d9f0df;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================================
+   ALERT / MESSAGE BOXES
+   ========================================= */
+
+div[data-testid="stAlert"] {
+    border-radius: 12px !important;
+}
+
+/* =========================================
+   EXPANDERS
+   ========================================= */
+
+.streamlit-expanderHeader {
+    background: white !important;
+
+    border-radius: 12px !important;
+
+    font-weight: 700 !important;
+
+    color: #14532d !important;
+}
+
+/* =========================================
+   DIVIDERS
+   ========================================= */
+
+hr {
+    border: none;
+
+    height: 1px;
+
+    background: #cde8d4;
+
+    margin: 25px 0;
+}
+
+/* =========================================
+   SECTION CARDS
+   ========================================= */
+
+.section-card {
+    background: white;
+
+    padding: 22px;
+
+    border-radius: 16px;
+
+    border-left: 5px solid #22c55e;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.06);
+
+    margin: 15px 0;
+}
+
+/* =========================================
+   FARMING BADGES
+   ========================================= */
+
+.badge {
+    display: inline-block;
+
+    background: #dcfce7;
+
+    color: #166534;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    margin: 3px;
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer {
+    text-align: center;
+
+    padding: 25px 10px;
+
+    margin-top: 40px;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
