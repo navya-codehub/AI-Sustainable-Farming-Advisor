@@ -1,12 +1,12 @@
 # AI-Powered Sustainable Farming Advisor
 
-## 1M1B AI for Sustainability Virtual Internship Project
+**1M1B AI for Sustainability Virtual Internship Project**
 
 An AI-powered decision-support application designed to provide sustainable farming guidance based on crop, weather, soil, and irrigation conditions.
+
 ## Live Demo
 
 Try the deployed application here:
-[AI-Powered Sustainable Farming Advisor](https://ai-sustainable-farming-advisor-kwsasrr6gv8ew4kcvh47vy.streamlit.app/)
 
 [AI-Powered Sustainable Farming Advisor](https://ai-sustainable-farming-advisor-kwsasrr6gv8ew4kcvh47vy.streamlit.app/)
 
@@ -47,7 +47,7 @@ The application provides:
 
 The project uses a **Random Forest Classification** model for crop recommendation.
 
-### Model Inputs
+## Model Inputs
 
 - Nitrogen (N)
 - Phosphorus (P)
@@ -57,14 +57,14 @@ The project uses a **Random Forest Classification** model for crop recommendatio
 - Soil pH
 - Rainfall
 
-### Dataset
+## Dataset
 
 **Crop Recommendation Dataset**
 
 - Total records: 2,200
 - Training records: 1,760
 - Testing records: 440
-- Model accuracy on the held-out test set: 99.55%
+- Model accuracy on the held-out test set: **99.55%**
 
 The test accuracy represents performance on this dataset and does not guarantee the same performance under real-world farming conditions.
 
@@ -89,7 +89,7 @@ It supported:
 - Reviewing and improving application code
 - Streamlit application organization
 
-More details are available in `IBM_BOB_USAGE.md`.
+More details are available in [IBM_BOB_USAGE.md](IBM_BOB_USAGE.md).
 
 ## Sustainable Development Goals
 
@@ -132,4 +132,5 @@ AI-Sustainable-Farming-Advisor/
 ├── train_model.py
 ├── Crop_recommendation.csv
 ├── crop_recommendation_model.pkl
-└── IBM_BOB_USAGE.md
+├── IBM_BOB_USAGE.md
+└── README.md
