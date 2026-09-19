@@ -3,6 +3,11 @@
 ## 1M1B AI for Sustainability Virtual Internship Project
 
 An AI-powered decision-support application designed to provide sustainable farming guidance based on crop, weather, soil, and irrigation conditions.
+## Live Demo
+
+Try the deployed application here:
+
+[AI-Powered Sustainable Farming Advisor](https://ai-sustainable-farming-advisor-kwsasrr6gv8ew4kcvh47vy.streamlit.app/)
 
 ## Problem Statement
 
