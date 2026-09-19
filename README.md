@@ -6,6 +6,7 @@ An AI-powered decision-support application designed to provide sustainable farmi
 ## Live Demo
 
 Try the deployed application here:
+[AI-Powered Sustainable Farming Advisor](https://ai-sustainable-farming-advisor-kwsasrr6gv8ew4kcvh47vy.streamlit.app/)
 
 [AI-Powered Sustainable Farming Advisor](https://ai-sustainable-farming-advisor-kwsasrr6gv8ew4kcvh47vy.streamlit.app/)
 
